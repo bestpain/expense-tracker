@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/myapp_dev
+    username: dev_user
+    password: dev_pass
+
+server:
+  port: 8081

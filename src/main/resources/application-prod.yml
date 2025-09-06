@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  datasource:
+    url: jdbc:mysql://prod-db:3306/myapp_prod
+    username: prod_user
+    password: prod_pass
+
+server:
+  port: 9090
