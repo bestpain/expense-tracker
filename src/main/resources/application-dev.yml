@@ -3,10 +3,17 @@ spring:
     activate:
       on-profile: dev
 
+  jpa:
+    hibernate:
+      ddl-auto: update
+
   datasource:
-    url: jdbc:mysql://localhost:3306/myapp_dev
-    username: dev_user
-    password: dev_pass
+    url: jdbc:mysql://localhost:3306/expense_dev
+    username: dev_expense
+    password: dev_expense
 
 server:
   port: 8081
+
+logging:
+  config: classpath:logback-dev.xml
