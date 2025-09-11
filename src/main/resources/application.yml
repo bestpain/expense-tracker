@@ -5,12 +5,15 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-
-
-  mvc:
-    servlet:
-      path: /api
+#  mvc:
+#    servlet:
+#      path: /api
 
   server:
     port: 8080  # default, overridden in profiles if needed
 
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false

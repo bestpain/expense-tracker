@@ -8,12 +8,9 @@
         <appender-ref ref="CONSOLE"/>
     </root>
 
-<!--    &lt;!&ndash; Enable DEBUG only for your app &ndash;&gt;-->
-<!--    <logger name="com.expensemanager" level="DEBUG"/>-->
-
-<!--    &lt;!&ndash; Keep Hibernate quieter &ndash;&gt;-->
-<!--    <logger name="org.hibernate" level="INFO"/>-->
-<!--    <logger name="org.springframework" level="INFO"/>-->
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
 
     <logger name="org.springframework" level="INFO"/>
     <logger name="org.springframework.web" level="DEBUG"/> <!-- see request mappings -->
@@ -21,7 +18,7 @@
     <logger name="org.hibernate.SQL" level="DEBUG"/> <!-- show SQL queries -->
     <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="TRACE"/> <!-- show SQL params -->
     <logger name="com.zaxxer.hikari" level="INFO"/>
-
+    <logger name="org.springframework.security" level="DEBUG"/>
     <!-- Your application logs -->
     <logger name="com.expensemanager" level="DEBUG"/>
 

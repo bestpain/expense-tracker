@@ -17,3 +17,15 @@ server:
 
 logging:
   config: classpath:logback-dev.xml
+
+security:
+  jwt:
+    secret-key: 9d79d7be92d3ae662e97a95fff2ed12aa2de52a3ee9bc29581ba3b23e4b0fe3c
+  # 1h in millisecond
+    expiration-time: 600000
+
+app:
+  cors:
+    allowed-origins: http://localhost:3000
+    allowed-methods: GET,POST,PUT,DELETE
+    allowed-headers: Authorization,Content-Type
