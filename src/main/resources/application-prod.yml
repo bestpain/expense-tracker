@@ -3,6 +3,10 @@ spring:
     activate:
       on-profile: prod
 
+  jpa:
+    hibernate:
+      open-in-view: false
+
   datasource:
     url: jdbc:mysql://prod-db:3306/myapp_prod
     username: prod_user

@@ -1,6 +1,9 @@
 package com.expensemanager.exception.user;
 
+import com.expensemanager.dto.user.userErrorResponse.UserErrorResponse;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -19,6 +22,25 @@ public class UserExceptionHandler {
         exp.getBindingResult().getFieldErrors().forEach(error->{
             errors.put(error.getField(),error.getDefaultMessage());
         });
-        return  errors;
+        return errors;
+    }
+
+    //DuplicateResourceException
+    @ExceptionHandler(DuplicateResourceException.class)
+    public ResponseEntity<UserErrorResponse> exceptionHandler(DuplicateResourceException exp){
+        UserErrorResponse userErrorResponse = new UserErrorResponse();
+        userErrorResponse.setStatus(HttpStatus.BAD_REQUEST.value());
+        userErrorResponse.setMessage(exp.getMessage());
+        userErrorResponse.setTimeStamp(System.currentTimeMillis());
+        return new ResponseEntity<>(userErrorResponse,HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(BadCredentialsException.class)
+    public ResponseEntity<UserErrorResponse> handleBadCredentials(BadCredentialsException ex) {
+        UserErrorResponse userErrorResponse = new UserErrorResponse();
+        userErrorResponse.setStatus(HttpStatus.UNAUTHORIZED.value());
+        userErrorResponse.setMessage("Invalid email or password");
+        userErrorResponse.setTimeStamp(System.currentTimeMillis());
+        return new ResponseEntity<>(userErrorResponse,HttpStatus.UNAUTHORIZED);
     }
 }
