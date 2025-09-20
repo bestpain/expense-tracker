@@ -1,26 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration>
+<configuration scan="true">
 
-    <include resource="logback-spring.xml"/>
+    <!-- Console with colors -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{HH:mm:ss.SSS} %highlight(%-5level){FATAL=red blink, ERROR=red, WARN=yellow, INFO=green, DEBUG=blue,
+                TRACE=cyan} %msg%n
+            </pattern>
+        </encoder>
+    </appender>
 
-    <!-- Root logger for dev -->
-    <root level="DEBUG">
-        <appender-ref ref="CONSOLE"/>
-    </root>
+    <!-- File appender for SQL logs -->
+    <appender name="SQLFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/sql.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/sql.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%d{HH:mm:ss.SSS}] %-5level %msg%n</pattern>
+        </encoder>
+    </appender>
 
+    <!-- P6Spy SQL logger -->
+    <logger name="p6spy" level="DEBUG" additivity="false">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="SQLFILE"/>
+    </logger>
+
+    <!-- Root logger -->
     <root level="INFO">
-        <appender-ref ref="STDOUT" />
+        <appender-ref ref="STDOUT"/>
     </root>
 
     <logger name="org.springframework" level="INFO"/>
-    <logger name="org.springframework.web" level="DEBUG"/> <!-- see request mappings -->
-    <logger name="org.hibernate" level="INFO"/>
-    <logger name="org.hibernate.SQL" level="DEBUG"/> <!-- show SQL queries -->
-    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="TRACE"/> <!-- show SQL params -->
-    <logger name="com.zaxxer.hikari" level="INFO"/>
+    <logger name="org.springframework.web" level="DEBUG"/>
     <logger name="org.springframework.security" level="DEBUG"/>
-    <!-- Your application logs -->
     <logger name="com.expensemanager" level="DEBUG"/>
-
 
 </configuration>

@@ -23,4 +23,18 @@ CREATE TABLE users (
 
 select * from users;
 
-drop table users;
+SET SQL_SAFE_UPDATES = 0;
+SET SQL_SAFE_UPDATES = 1;
+
+update users set role="ADMIN" where name = "admin" ;
+update users set role="ADMIN" where name = "rock";
+select * from expenses;
+
+insert into expenses values(55454,0,"d","1998-11-11");
+
+select * from category;
+
+SHOW INDEXES FROM category;
+
+
+insert into category values(5,"a");

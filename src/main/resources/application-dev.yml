@@ -1,27 +1,38 @@
 spring:
-  config:
-    activate:
-      on-profile: dev
+#  config:
+#    activate:
+#      on-profile: dev
 
   jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: false
     hibernate:
       ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true   # Pretty-print SQL
+#        generate_statistics: true  # Enables Hibernate statistics
 
   datasource:
-    url: jdbc:mysql://localhost:3306/expense_dev
+    url: jdbc:p6spy:mysql://localhost:3306/expense_dev   # ✅ note p6spy:mysql
     username: dev_expense
     password: dev_expense
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
 
 server:
   port: 8081
 
+
 logging:
+  level:
+    org.hibernate.SQL: OFF
+    org.hibernate.type.descriptor.sql.BasicBinder: OFF
   config: classpath:logback-dev.xml
 
 security:
   jwt:
     secret-key: 9d79d7be92d3ae662e97a95fff2ed12aa2de52a3ee9bc29581ba3b23e4b0fe3c
-  # 1h in millisecond
+    # 1h in millisecond
     expiration-time: 600000
 
 app:

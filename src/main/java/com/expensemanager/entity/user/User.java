@@ -1,68 +1,74 @@
 package com.expensemanager.entity.user;
 
+import com.expensemanager.entity.BaseEntity;
+import com.expensemanager.entity.category.Category;
+import com.expensemanager.entity.expense.Expense;
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import java.time.LocalDateTime;
+import java.math.BigDecimal;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
-@Table(name = "users", uniqueConstraints = {
-        @UniqueConstraint(columnNames = "email")
-})
-@EntityListeners(AuditingEntityListener.class)
-@Builder
+@Table(name = "users")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
-public class User implements UserDetails {
-
-    @Id
-    @UuidGenerator
-    @Column(length = 36, updatable = false, nullable = false)
-    private String id;
-
+public class User extends BaseEntity implements UserDetails  {
+    @Setter
     @Column(nullable = false)
     private String name;
 
+    @Setter
     @Column(unique = true, length = 100, nullable = false)
     private String email;
 
-    @CreatedDate
-    @Column(updatable = false, name = "created_at")
-    private LocalDateTime createdAt;
-
     @Column(nullable = false)
-    private String role;
+    private String role = "USER";
 
-    @PrePersist
-    public void prePersist() {
-        if (role == null) {
-            role = "USER";
-        }
+    @Setter
+    @Column(precision = 19, scale = 2)
+    private BigDecimal incomeLimit = BigDecimal.ZERO;
+
+    @Setter
+    @Column(nullable = false)
+    private String password;
+
+    public static User of(String name, String email, String passwordHash, BigDecimal incomeLimit) {
+        User u = new User();
+        u.name = name;
+        u.email = email;
+        u.password = passwordHash;
+        u.incomeLimit = incomeLimit == null ? BigDecimal.ZERO : incomeLimit;
+        return u;
     }
+
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    private Set<Category> categories = new HashSet<>();
+
+    @OneToMany(mappedBy = "user")
+    private List<Expense> expenseList;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of(new SimpleGrantedAuthority("ROLE_" + role.toUpperCase()));
     }
 
-    private String password;
-
     @Override
     public String toString() {
         return "User{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", email='" + email + '\'' +
-                '}';
+                ", role='" + role + '\'' +
+                ", incomeLimit=" + incomeLimit +
+                "} "
+                ;
     }
 
     @Override

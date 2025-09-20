@@ -39,7 +39,7 @@ public class AuthenticationController {
     }
 
     @PostMapping("/signup")
-    public ResponseEntity<ApiResponse> register(@RequestBody @Valid UserRegisterRequest registerUserDto) {
+    public ResponseEntity<?> register(@RequestBody @Valid UserRegisterRequest registerUserDto) {
         UserRegisterResponse registeredUser = authenticationService.signup(registerUserDto);
 
         return ResponseEntity.status(HttpStatus.CREATED)
@@ -50,8 +50,7 @@ public class AuthenticationController {
     public ResponseEntity<UserLoginResponse> authenticate(@RequestBody @Valid UserLoginRequest loginUserDto) {
         Authentication auth = authenticationService.authenticate(loginUserDto);
 
-        UserDetails userDetails = (UserDetails) auth.getPrincipal(); // ✅ extract user
-        log.info("userDetails::: {}", userDetails);
+        UserDetails userDetails = (UserDetails) auth.getPrincipal();
 
         String jwtToken = jwtService.generateToken(userDetails);
 

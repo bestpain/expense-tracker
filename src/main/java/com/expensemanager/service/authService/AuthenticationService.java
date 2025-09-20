@@ -7,6 +7,7 @@ import com.expensemanager.dto.user.userRegister.UserRegisterResponse;
 import com.expensemanager.entity.user.User;
 import com.expensemanager.exception.user.DuplicateResourceException;
 import com.expensemanager.repository.userRepository.UserRepository;
+import jakarta.transaction.Transactional;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -31,15 +32,16 @@ public class AuthenticationService {
         this.passwordEncoder = passwordEncoder;
     }
 
-    public UserRegisterResponse signup(UserRegisterRequest input) {
-        if (userRepository.findByEmail(input.getEmail()).isPresent()) {
+    @Transactional
+    public UserRegisterResponse signup(UserRegisterRequest userBody) {
+        if (userRepository.findByEmail(userBody.getEmail()).isPresent()) {
             throw new DuplicateResourceException("Email already registered");
         }
 
-        User user = User.builder().name(input.getName()).email(input.getEmail())
-                .password(passwordEncoder.encode(input.getPassword())).build();
+        User user = User.of(userBody.getName(), userBody.getEmail(),
+                passwordEncoder.encode(userBody.getPassword()), userBody.getIncomeLimit());
 
-        User savedUser = userRepository.save(user);// save to DB
+        User savedUser = userRepository.save(user);
 
         return new UserRegisterResponse(savedUser.getId(), savedUser.getName(), savedUser.getEmail(), savedUser.getCreatedAt());
     }
