@@ -1,4 +1,4 @@
-package com.expensemanager.dto.user.userErrorResponse;
+package com.expensemanager.dto.user.userError;
 
 import lombok.Getter;
 import lombok.Setter;

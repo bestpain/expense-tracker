@@ -1,7 +1,10 @@
 package com.expensemanager.dto.user.userRegister;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.*;
 import lombok.Getter;
+
+import java.math.BigDecimal;
 
 @Getter
 public class UserRegisterRequest {
@@ -14,8 +17,12 @@ public class UserRegisterRequest {
     private String email;
 
     @NotBlank
-    @Size(min = 6, max = 31, message = "Password should be between 6 and 31 characters.")
+    @Size(min = 4, max = 31, message = "Password should be between 6 and 31 characters.")
     private String password;
+
+    @JsonProperty("incomelimit")
+    @Min(0)
+    private BigDecimal incomeLimit;
 
     @Override
     public String toString() {
