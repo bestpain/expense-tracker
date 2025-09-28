@@ -18,14 +18,14 @@ public class UserResponse {
     private String id;
     private String email;
     private String name;
-    private String role;
+
+
     private BigDecimal incomeLimit;
 
-    public UserResponse(String id, String email, String name, String role, BigDecimal incomeLimit) {
+    public UserResponse(String id, String email, String name, BigDecimal incomeLimit) {
         this.id = id;
         this.email = email;
         this.name = name;
-        this.role = role;
         this.incomeLimit = incomeLimit;
     }
 

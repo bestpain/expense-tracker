@@ -33,12 +33,13 @@ public class SecurityConfiguration {
                 .csrf(csrf -> csrf.disable()) // disable CSRF for APIs
 
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/auth/**").permitAll()
+                        .requestMatchers("/api/auth/login", "/api/auth/signup").permitAll()  // public
+                        .requestMatchers("/api/auth/logout").authenticated()
                         .requestMatchers("/api/users/**").authenticated()
                         .requestMatchers("/api/category/**").authenticated()
                         .requestMatchers(HttpMethod.GET, "/api/admin/**").hasRole("ADMIN")  // <-- admin-only endpoints
                         .requestMatchers("/error").permitAll()
-                        .anyRequest().permitAll() // let unmapped routes fall through to MVC → 40
+                        .anyRequest().authenticated() // let unmapped routes fall through to MVC → 40
                 )
                 .sessionManagement(session ->
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) // no HTTP sessions,stateless for JWT

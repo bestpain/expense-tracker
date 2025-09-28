@@ -14,7 +14,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Getter
 public class UpdateProfileRequest {
-    @NotBlank(message = "Name should not be blank.")
     @Size(min = 4, message = "Name should be at least 4 characters.")
     private String name;
     @Email(message = "Invalid Email Address.")

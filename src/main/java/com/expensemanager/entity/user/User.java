@@ -20,7 +20,7 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
-public class User extends BaseEntity implements UserDetails  {
+public class User extends BaseEntity {
     @Setter
     @Column(nullable = false)
     private String name;
@@ -40,6 +40,9 @@ public class User extends BaseEntity implements UserDetails  {
     @Column(nullable = false)
     private String password;
 
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    private Set<Category> categories = new HashSet<>();
+
     public static User of(String name, String email, String passwordHash, BigDecimal incomeLimit) {
         User u = new User();
         u.name = name;
@@ -47,17 +50,6 @@ public class User extends BaseEntity implements UserDetails  {
         u.password = passwordHash;
         u.incomeLimit = incomeLimit == null ? BigDecimal.ZERO : incomeLimit;
         return u;
-    }
-
-    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
-    private Set<Category> categories = new HashSet<>();
-
-    @OneToMany(mappedBy = "user")
-    private List<Expense> expenseList;
-
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of(new SimpleGrantedAuthority("ROLE_" + role.toUpperCase()));
     }
 
     @Override
@@ -69,10 +61,5 @@ public class User extends BaseEntity implements UserDetails  {
                 ", incomeLimit=" + incomeLimit +
                 "} "
                 ;
-    }
-
-    @Override
-    public String getUsername() {
-        return email;
     }
 }

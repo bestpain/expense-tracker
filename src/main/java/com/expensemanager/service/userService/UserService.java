@@ -38,8 +38,14 @@ public class UserService {
         this.categoryRepository=  categoryRepository;
     }
 
+    public Optional<User> findById(String userId) {
+        return userRepository.findById(userId);
+    }
+
+
     public User updateProfile(String userId, UpdateProfileRequest upd) {
         User user = userRepository.findById(userId).orElseThrow(() -> new NotFoundException("User not found"));
+        //update email
         if (upd.getEmail() != null && !upd.getEmail().equalsIgnoreCase(user.getEmail())) {
             if (userRepository.existsByEmailIgnoreCase(upd.getEmail()))
                 throw new DuplicateResourceException(upd.getEmail()+ " is invalid");

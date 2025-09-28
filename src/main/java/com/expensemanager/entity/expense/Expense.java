@@ -2,33 +2,29 @@ package com.expensemanager.entity.expense;
 
 import com.expensemanager.entity.BaseEntity;
 import com.expensemanager.entity.category.Category;
-import com.expensemanager.entity.user.User;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.extern.slf4j.Slf4j;
+import lombok.*;
 import org.hibernate.annotations.Check;
+import org.springframework.lang.Nullable;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.util.List;
 
-@Slf4j
 @Table(name = "expenses")
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
+@Setter
 public class Expense extends BaseEntity {
     @Min(value = 1, message = "Amount should be Greater than Zero.")
-    @Column(nullable = false , precision = 10 , scale = 2)
+    @Column(nullable = false, precision = 10, scale = 2)
     @Check(constraints = "amount > 0")
     private BigDecimal amount;
 
@@ -41,29 +37,33 @@ public class Expense extends BaseEntity {
     @NotNull(message = "can not be null")
     private OffsetDateTime expenseDateTime;
 
-//    @PrePersist
-//    public void prePersist(){
-//        if(expenseDateTime == null){
-//            expenseDateTime = OffsetDateTime.now(ZoneOffset.ofHoursMinutes(5,30));
-//        }
-//        log.debug("Expense recorded Time::: {}", expenseDateTime);
-//    }
-
-    @ManyToOne(optional = false)
-    @JoinColumn(name = "user_id")
-    private User user;
-
-    @ManyToOne(optional = false)
-    @JoinColumn(name = "category_id")
+    // FK relationship (authoritative for insert/update)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 
-    public static Expense of(BigDecimal amount,String description,User user, Category category){
+    // Direct FK column (read-only for lightweight access)
+    @Column(name = "category_id", nullable = false, insertable = false, updatable = false)
+    private String categoryId;
+
+    public static Expense of(BigDecimal amount, String description, Category category, @Nullable OffsetDateTime expenseDateTime) {
         Expense expense = new Expense();
         expense.amount = amount;
         expense.description = description;
-        expense.user = user;
         expense.category = category;
-        expense.expenseDateTime = OffsetDateTime.now(ZoneOffset.ofHoursMinutes(5,30));
+        expense.expenseDateTime = (expenseDateTime != null)
+                ? expenseDateTime
+                : OffsetDateTime.now(ZoneOffset.ofHoursMinutes(5, 30));
         return expense;
+    }
+
+    @Override
+    public String toString() {
+        return "Expense{" +
+                "amount=" + amount +
+                ", description='" + description + '\'' +
+                ", expenseDateTime=" + expenseDateTime +
+                ", category=" + categoryId +
+                "} " + super.toString();
     }
 }

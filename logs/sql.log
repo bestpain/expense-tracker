@@ -1,0 +1,189 @@
+[00:49:38.434] INFO  🔵 SQL | 2 ms | select * from `expense_dev`.`users` where 1=0
+[00:49:38.449] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`category` where 1=0
+[00:50:04.794] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[00:50:04.818] INFO  
+[00:50:04.835] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[00:50:10.072] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[00:50:10.074] INFO  
+[00:50:10.074] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[00:50:10.108] INFO  🔵 SQL | 1 ms | select distinct c1_0.id,c1_0.category_name,c1_0.created_at,e1_0.category_id,e1_0.id,e1_0.amount,e1_0.created_at,e1_0.description,e1_0.expense_date_time,c1_0.user_id from category c1_0 left join expenses e1_0 on c1_0.id=e1_0.category_id where c1_0.user_id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[00:50:10.111] INFO  
+[00:50:10.115] INFO  ⚪ RESULTSET | 1 = '06a0ea7e-0630-487a-be83-0470e316c5b1', 4 = NULL, 10 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'check', 3 = '2025-09-23T23:37:57.610+0530'
+[00:50:10.115] INFO  
+[00:50:10.116] INFO  ⚪ RESULTSET | 1 = '37369cbc-e229-4c5e-939f-df825ba8399d', 4 = NULL, 10 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'clothes', 3 = '2025-09-23T23:20:54.774+0530'
+[00:50:10.116] INFO  
+[00:50:10.116] INFO  ⚪ RESULTSET | 1 = 'c61198f1-c467-466c-bdae-8525cae2c470', 4 = NULL, 10 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'dummy', 3 = '2025-09-23T23:25:02.774+0530'
+[00:50:10.117] INFO  
+[00:50:10.117] INFO  ⚪ RESULTSET | 1 = '2ca4be37-5633-4c72-9245-deabdd0c033d', 4 = '2ca4be37-5633-4c72-9245-deabdd0c033d', 5 = '52840655-29ab-4a83-822e-3aae3b989ea6', 10 = '199def9b-e516-43e0-b02b-f1aad32a813e', 6 = 20.56, 7 = '2025-09-24T01:07:03.730+0530', 8 = 'dahi', 9 = '2025-09-24T01:07:03.722+0530', 2 = 'food', 3 = '2025-09-23T23:11:24.702+0530'
+[00:50:10.117] INFO  
+[00:50:10.117] INFO  ⚪ RESULTSET | 1 = '930d4337-2d83-40d4-9d8b-7e870aef961c', 4 = NULL, 10 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'other', 3 = '2025-09-23T23:53:06.691+0530'
+[00:50:10.117] INFO  
+[00:50:10.117] INFO  ⚪ RESULTSET | 1 = '227240d8-0094-47e2-9313-9e30870b478a', 4 = NULL, 10 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'trip', 3 = '2025-09-23T23:13:06.368+0530'
+[00:50:19.994] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[00:50:19.995] INFO  
+[00:50:19.995] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[00:50:20.004] INFO  🔵 SQL | 0 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.user_id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[00:50:20.004] INFO  
+[00:50:20.005] INFO  ⚪ RESULTSET | 1 = '06a0ea7e-0630-487a-be83-0470e316c5b1', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'check', 3 = '2025-09-23T23:37:57.610+0530'
+[00:50:20.005] INFO  
+[00:50:20.005] INFO  ⚪ RESULTSET | 1 = '37369cbc-e229-4c5e-939f-df825ba8399d', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'clothes', 3 = '2025-09-23T23:20:54.774+0530'
+[00:50:20.005] INFO  
+[00:50:20.006] INFO  ⚪ RESULTSET | 1 = 'c61198f1-c467-466c-bdae-8525cae2c470', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'dummy', 3 = '2025-09-23T23:25:02.774+0530'
+[00:50:20.006] INFO  
+[00:50:20.006] INFO  ⚪ RESULTSET | 1 = '2ca4be37-5633-4c72-9245-deabdd0c033d', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'food', 3 = '2025-09-23T23:11:24.702+0530'
+[00:50:20.007] INFO  
+[00:50:20.008] INFO  ⚪ RESULTSET | 1 = '930d4337-2d83-40d4-9d8b-7e870aef961c', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'other', 3 = '2025-09-23T23:53:06.691+0530'
+[00:50:20.008] INFO  
+[00:50:20.008] INFO  ⚪ RESULTSET | 1 = '227240d8-0094-47e2-9313-9e30870b478a', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'trip', 3 = '2025-09-23T23:13:06.368+0530'
+[00:50:50.580] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:50:50.673] INFO  🔵 SQL | 2 ms | insert into users (created_at,email,income_limit,name,password,role,id) values ('2025-09-25T00:50:50.652+0530','normal@gmail.com',0,'normal','$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG','USER','3b3d2dda-e8fb-4802-a4df-60a63a67e1cc')
+[00:51:04.393] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:51:04.393] INFO  
+[00:51:04.393] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:51:15.571] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:51:15.572] INFO  
+[00:51:15.573] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:51:15.598] INFO  🔵 SQL | 1 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:51:18.909] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:51:18.910] INFO  
+[00:51:18.911] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:51:18.931] INFO  🔵 SQL | 1 ms | select c1_0.id from category c1_0 where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:51:18.946] INFO  🔵 SQL | 1 ms | select e1_0.id,e1_0.amount,e1_0.category_id,e1_0.created_at,e1_0.description,e1_0.expense_date_time from expenses e1_0 where e1_0.category_id in (NULL)
+[00:51:37.042] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:51:37.043] INFO  
+[00:51:37.045] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:51:37.075] INFO  🔵 SQL | 4 ms | select c1_0.id from category c1_0 join users u1_0 on u1_0.id=c1_0.user_id where c1_0.category_name='food' and u1_0.id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc' limit 1
+[00:51:37.093] INFO  🔵 SQL | 4 ms | insert into category (category_name,created_at,user_id,id) values ('food','2025-09-25T00:51:37.082+0530','3b3d2dda-e8fb-4802-a4df-60a63a67e1cc','fa0bb985-26ac-4901-8a5c-89ba5095afcf')
+[00:52:07.697] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:52:07.697] INFO  
+[00:52:07.698] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:52:07.723] INFO  🔵 SQL | 1 ms | select c1_0.id from category c1_0 join users u1_0 on u1_0.id=c1_0.user_id where c1_0.category_name='trip' and u1_0.id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc' limit 1
+[00:52:07.739] INFO  🔵 SQL | 6 ms | insert into category (category_name,created_at,user_id,id) values ('trip','2025-09-25T00:52:07.725+0530','3b3d2dda-e8fb-4802-a4df-60a63a67e1cc','512166b2-58ed-4be1-9d10-5c6fd4e2f75d')
+[00:52:10.661] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:52:10.662] INFO  
+[00:52:10.663] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:52:10.678] INFO  🔵 SQL | 2 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:52:10.679] INFO  
+[00:52:10.681] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 4 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = 'food', 3 = '2025-09-25T00:51:37.082+0530'
+[00:52:10.681] INFO  
+[00:52:10.682] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 4 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = 'trip', 3 = '2025-09-25T00:52:07.725+0530'
+[00:52:48.763] INFO  🔵 SQL | 3 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:52:48.765] INFO  
+[00:52:48.767] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:52:48.858] INFO  🔵 SQL | 2 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.id='512166b2-58ed-4be1-9d10-5c6fd4e2f75d' and c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:52:48.859] INFO  
+[00:52:48.861] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 4 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = 'trip', 3 = '2025-09-25T00:52:07.725+0530'
+[00:52:48.872] INFO  🔵 SQL | 3 ms | insert into expenses (amount,category_id,created_at,description,expense_date_time,id) values (12.56,'512166b2-58ed-4be1-9d10-5c6fd4e2f75d','2025-09-25T00:52:48.865+0530','milk','2025-09-25T00:52:48.864+0530','f871cc5d-0335-41cb-9d4a-0af53d94eb4c')
+[00:52:55.972] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:52:55.973] INFO  
+[00:52:55.974] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:52:55.989] INFO  🔵 SQL | 3 ms | select c1_0.id from category c1_0 where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:52:55.989] INFO  
+[00:52:55.989] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf'
+[00:52:55.989] INFO  
+[00:52:55.989] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d'
+[00:52:55.997] INFO  🔵 SQL | 2 ms | select e1_0.id,e1_0.amount,e1_0.category_id,e1_0.created_at,e1_0.description,e1_0.expense_date_time from expenses e1_0 where e1_0.category_id in ('fa0bb985-26ac-4901-8a5c-89ba5095afcf','512166b2-58ed-4be1-9d10-5c6fd4e2f75d')
+[00:52:55.998] INFO  
+[00:52:55.999] INFO  ⚪ RESULTSET | 1 = 'f871cc5d-0335-41cb-9d4a-0af53d94eb4c', 3 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 2 = 12.56, 4 = '2025-09-25T00:52:48.865+0530', 5 = 'milk', 6 = '2025-09-25T00:52:48.864+0530'
+[00:53:17.910] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:53:17.911] INFO  
+[00:53:17.911] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:53:17.938] INFO  🔵 SQL | 4 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.id='fa0bb985-26ac-4901-8a5c-89ba5095afcf' and c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:53:17.942] INFO  
+[00:53:17.944] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 4 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = 'food', 3 = '2025-09-25T00:51:37.082+0530'
+[00:53:17.956] INFO  🔵 SQL | 2 ms | insert into expenses (amount,category_id,created_at,description,expense_date_time,id) values (500.56,'fa0bb985-26ac-4901-8a5c-89ba5095afcf','2025-09-25T00:53:17.950+0530','polo shirt','2025-09-25T00:53:17.946+0530','18a5f03b-8c9c-4e8a-a4bb-8833db44fbfd')
+[00:53:23.031] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:53:23.032] INFO  
+[00:53:23.032] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:53:23.049] INFO  🔵 SQL | 2 ms | select c1_0.id from category c1_0 where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:53:23.049] INFO  
+[00:53:23.049] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf'
+[00:53:23.049] INFO  
+[00:53:23.049] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d'
+[00:53:23.052] INFO  🔵 SQL | 1 ms | select e1_0.id,e1_0.amount,e1_0.category_id,e1_0.created_at,e1_0.description,e1_0.expense_date_time from expenses e1_0 where e1_0.category_id in ('fa0bb985-26ac-4901-8a5c-89ba5095afcf','512166b2-58ed-4be1-9d10-5c6fd4e2f75d')
+[00:53:23.054] INFO  
+[00:53:23.057] INFO  ⚪ RESULTSET | 1 = 'f871cc5d-0335-41cb-9d4a-0af53d94eb4c', 3 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 2 = 12.56, 4 = '2025-09-25T00:52:48.865+0530', 5 = 'milk', 6 = '2025-09-25T00:52:48.864+0530'
+[00:53:23.058] INFO  
+[00:53:23.060] INFO  ⚪ RESULTSET | 1 = '18a5f03b-8c9c-4e8a-a4bb-8833db44fbfd', 3 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 2 = 500.56, 4 = '2025-09-25T00:53:17.950+0530', 5 = 'polo shirt', 6 = '2025-09-25T00:53:17.946+0530'
+[00:53:33.227] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:53:33.228] INFO  
+[00:53:33.228] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:53:33.244] INFO  🔵 SQL | 1 ms | select distinct c1_0.id,c1_0.category_name,c1_0.created_at,e1_0.category_id,e1_0.id,e1_0.amount,e1_0.created_at,e1_0.description,e1_0.expense_date_time,c1_0.user_id from category c1_0 left join expenses e1_0 on c1_0.id=e1_0.category_id where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:53:33.245] INFO  
+[00:53:33.247] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 4 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 5 = '18a5f03b-8c9c-4e8a-a4bb-8833db44fbfd', 10 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 6 = 500.56, 7 = '2025-09-25T00:53:17.950+0530', 8 = 'polo shirt', 9 = '2025-09-25T00:53:17.946+0530', 2 = 'food', 3 = '2025-09-25T00:51:37.082+0530'
+[00:53:33.248] INFO  
+[00:53:33.249] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 4 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 5 = 'f871cc5d-0335-41cb-9d4a-0af53d94eb4c', 10 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 6 = 12.56, 7 = '2025-09-25T00:52:48.865+0530', 8 = 'milk', 9 = '2025-09-25T00:52:48.864+0530', 2 = 'trip', 3 = '2025-09-25T00:52:07.725+0530'
+[00:56:27.272] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:56:27.272] INFO  
+[00:56:27.273] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:56:27.278] INFO  🔵 SQL | 0 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:56:27.278] INFO  
+[00:56:27.278] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 4 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = 'food', 3 = '2025-09-25T00:51:37.082+0530'
+[00:56:27.278] INFO  
+[00:56:27.279] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 4 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = 'trip', 3 = '2025-09-25T00:52:07.725+0530'
+[00:58:02.487] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:58:02.487] INFO  
+[00:58:02.488] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:58:02.498] INFO  🔵 SQL | 1 ms | select c1_0.id from category c1_0 where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:58:02.499] INFO  
+[00:58:02.499] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf'
+[00:58:02.499] INFO  
+[00:58:02.499] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d'
+[00:58:02.503] INFO  🔵 SQL | 1 ms | select e1_0.id,e1_0.amount,e1_0.category_id,e1_0.created_at,e1_0.description,e1_0.expense_date_time from expenses e1_0 where e1_0.category_id in ('fa0bb985-26ac-4901-8a5c-89ba5095afcf','512166b2-58ed-4be1-9d10-5c6fd4e2f75d')
+[00:58:02.503] INFO  
+[00:58:02.504] INFO  ⚪ RESULTSET | 1 = 'f871cc5d-0335-41cb-9d4a-0af53d94eb4c', 3 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 2 = 12.56, 4 = '2025-09-25T00:52:48.865+0530', 5 = 'milk', 6 = '2025-09-25T00:52:48.864+0530'
+[00:58:02.504] INFO  
+[00:58:02.505] INFO  ⚪ RESULTSET | 1 = '18a5f03b-8c9c-4e8a-a4bb-8833db44fbfd', 3 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 2 = 500.56, 4 = '2025-09-25T00:53:17.950+0530', 5 = 'polo shirt', 6 = '2025-09-25T00:53:17.946+0530'
+[00:58:34.277] INFO  🔵 SQL | 2 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[00:58:34.278] INFO  
+[00:58:34.279] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[00:58:34.305] INFO  🔵 SQL | 3 ms | select e1_0.id,e1_0.description,e1_0.amount,e1_0.expense_date_time,c1_0.id,c1_0.category_name from expenses e1_0 join category c1_0 on c1_0.id=e1_0.category_id where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[00:58:34.307] INFO  
+[00:58:34.308] INFO  ⚪ RESULTSET | 1 = '18a5f03b-8c9c-4e8a-a4bb-8833db44fbfd', 2 = 'polo shirt', 3 = 500.56, 4 = '2025-09-25T00:53:17.946+0530', 5 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 6 = 'food'
+[00:58:34.308] INFO  
+[00:58:34.308] INFO  ⚪ RESULTSET | 1 = 'f871cc5d-0335-41cb-9d4a-0af53d94eb4c', 2 = 'milk', 3 = 12.56, 4 = '2025-09-25T00:52:48.864+0530', 5 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 6 = 'trip'
+[01:01:31.712] INFO  🔵 SQL | 2 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[01:01:31.713] INFO  
+[01:01:31.714] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[01:01:31.731] INFO  🔵 SQL | 2 ms | select distinct c1_0.id,c1_0.category_name,c1_0.created_at,e1_0.category_id,e1_0.id,e1_0.amount,e1_0.created_at,e1_0.description,e1_0.expense_date_time,c1_0.user_id from category c1_0 left join expenses e1_0 on c1_0.id=e1_0.category_id where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[01:01:31.732] INFO  
+[01:01:31.734] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 4 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 5 = '18a5f03b-8c9c-4e8a-a4bb-8833db44fbfd', 10 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 6 = 500.56, 7 = '2025-09-25T00:53:17.950+0530', 8 = 'polo shirt', 9 = '2025-09-25T00:53:17.946+0530', 2 = 'food', 3 = '2025-09-25T00:51:37.082+0530'
+[01:01:31.734] INFO  
+[01:01:31.735] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 4 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 5 = 'f871cc5d-0335-41cb-9d4a-0af53d94eb4c', 10 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 6 = 12.56, 7 = '2025-09-25T00:52:48.865+0530', 8 = 'milk', 9 = '2025-09-25T00:52:48.864+0530', 2 = 'trip', 3 = '2025-09-25T00:52:07.725+0530'
+[01:02:19.670] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[01:02:19.671] INFO  
+[01:02:19.671] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[01:02:19.677] INFO  🔵 SQL | 0 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.id='fa0bb985-26ac-4901-8a5c-89ba5095afcf' and c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[01:02:19.678] INFO  
+[01:02:19.678] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 4 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = 'food', 3 = '2025-09-25T00:51:37.082+0530'
+[01:02:19.681] INFO  🔵 SQL | 0 ms | insert into expenses (amount,category_id,created_at,description,expense_date_time,id) values (200.56,'fa0bb985-26ac-4901-8a5c-89ba5095afcf','2025-09-25T01:02:19.679+0530','apple','2025-09-25T01:02:19.678+0530','c9a549fa-a772-4441-a826-c7c3604de47a')
+[01:02:59.217] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[01:02:59.217] INFO  
+[01:02:59.218] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[01:02:59.229] INFO  🔵 SQL | 1 ms | select distinct c1_0.id,c1_0.category_name,c1_0.created_at,e1_0.category_id,e1_0.id,e1_0.amount,e1_0.created_at,e1_0.description,e1_0.expense_date_time,c1_0.user_id from category c1_0 left join expenses e1_0 on c1_0.id=e1_0.category_id where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[01:02:59.229] INFO  
+[01:02:59.230] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 4 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 5 = '18a5f03b-8c9c-4e8a-a4bb-8833db44fbfd', 10 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 6 = 500.56, 7 = '2025-09-25T00:53:17.950+0530', 8 = 'polo shirt', 9 = '2025-09-25T00:53:17.946+0530', 2 = 'food', 3 = '2025-09-25T00:51:37.082+0530'
+[01:02:59.230] INFO  
+[01:02:59.230] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 5 = 'c9a549fa-a772-4441-a826-c7c3604de47a', 6 = 200.56, 4 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 7 = '2025-09-25T01:02:19.679+0530', 8 = 'apple', 9 = '2025-09-25T01:02:19.678+0530'
+[01:02:59.230] INFO  
+[01:02:59.231] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 4 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 5 = 'f871cc5d-0335-41cb-9d4a-0af53d94eb4c', 10 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 6 = 12.56, 7 = '2025-09-25T00:52:48.865+0530', 8 = 'milk', 9 = '2025-09-25T00:52:48.864+0530', 2 = 'trip', 3 = '2025-09-25T00:52:07.725+0530'
+[01:04:23.274] INFO  🔵 SQL | 3 ms | select * from `expense_dev`.`users` where 1=0
+[01:04:23.284] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[01:09:04.194] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='normal@gmail.com'
+[01:09:04.208] INFO  
+[01:09:04.219] INFO  ⚪ RESULTSET | 1 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 2 = '2025-09-25T00:50:50.652+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$AOiUvGDE73oZaH2URAnbZOLCwCFevsxTMnfXrC0PFSqsfkOYXNHkG', 7 = 'USER'
+[01:09:04.273] INFO  🔵 SQL | 1 ms | select distinct c1_0.id,c1_0.category_name,c1_0.created_at,e1_0.category_id,e1_0.id,e1_0.amount,e1_0.created_at,e1_0.description,e1_0.expense_date_time,c1_0.user_id from category c1_0 left join expenses e1_0 on c1_0.id=e1_0.category_id where c1_0.user_id='3b3d2dda-e8fb-4802-a4df-60a63a67e1cc'
+[01:09:04.276] INFO  
+[01:09:04.282] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 4 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 5 = '18a5f03b-8c9c-4e8a-a4bb-8833db44fbfd', 10 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 6 = 500.56, 7 = '2025-09-25T00:53:17.950+0530', 8 = 'polo shirt', 9 = '2025-09-25T00:53:17.946+0530', 2 = 'food', 3 = '2025-09-25T00:51:37.082+0530'
+[01:09:04.282] INFO  
+[01:09:04.282] INFO  ⚪ RESULTSET | 1 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 5 = 'c9a549fa-a772-4441-a826-c7c3604de47a', 6 = 200.56, 4 = 'fa0bb985-26ac-4901-8a5c-89ba5095afcf', 7 = '2025-09-25T01:02:19.679+0530', 8 = 'apple', 9 = '2025-09-25T01:02:19.678+0530'
+[01:09:04.282] INFO  
+[01:09:04.284] INFO  ⚪ RESULTSET | 1 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 4 = '512166b2-58ed-4be1-9d10-5c6fd4e2f75d', 5 = 'f871cc5d-0335-41cb-9d4a-0af53d94eb4c', 10 = '3b3d2dda-e8fb-4802-a4df-60a63a67e1cc', 6 = 12.56, 7 = '2025-09-25T00:52:48.865+0530', 8 = 'milk', 9 = '2025-09-25T00:52:48.864+0530', 2 = 'trip', 3 = '2025-09-25T00:52:07.725+0530'
+[01:13:08.551] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[01:13:08.557] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[01:13:10.824] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[01:13:10.827] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[01:13:35.395] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[01:13:35.416] INFO  🔵 SQL | 4 ms | select * from `expense_dev`.`category` where 1=0
+[01:13:39.053] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[01:13:39.060] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0

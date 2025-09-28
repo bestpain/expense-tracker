@@ -11,8 +11,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Check;
 
+import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(
@@ -30,11 +32,10 @@ public class Category extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "user_id", nullable = false)
-    @JsonIgnore
     private User user;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "category")
-    private List<Expense> expenses;
+    private Set<Expense> expenses = new HashSet<>();
 
     public static Category of(String categoryName,User user){
         Category newCategory = new Category();

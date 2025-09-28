@@ -1,0 +1,598 @@
+[11:05:58.321] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:05:58.330] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:05:58.330] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:06:07.308] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:06:07.320] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`category` where 1=0
+[11:06:07.325] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:06:28.792] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:06:28.800] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:06:28.801] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:06:39.762] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:06:39.772] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`category` where 1=0
+[11:06:39.774] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:06:58.972] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[11:06:58.983] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:06:58.988] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:07:09.840] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:07:09.844] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:07:09.847] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:07:28.295] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:07:28.302] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:07:28.312] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:07:39.658] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:07:39.661] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:07:39.662] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:07:58.148] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:07:58.153] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:07:58.155] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:08:10.211] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:08:10.215] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:08:10.216] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:08:28.521] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:08:28.526] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:08:28.528] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:08:40.610] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:08:40.615] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:08:40.615] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:08:58.517] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:08:58.521] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:08:58.521] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:09:10.749] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:09:10.757] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:09:10.759] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:09:27.022] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:09:27.026] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:09:27.027] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:09:44.128] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:09:44.135] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`category` where 1=0
+[11:09:44.139] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:09:56.490] INFO  🔵 SQL | 3 ms | select * from `expense_dev`.`users` where 1=0
+[11:09:56.498] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:09:56.500] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:10:14.783] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:10:14.785] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:10:14.788] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:10:23.093] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:10:23.100] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`category` where 1=0
+[11:10:23.103] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:10:44.050] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:10:44.062] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:10:44.062] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:10:55.824] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:10:55.830] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:10:55.830] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:11:14.580] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:11:14.584] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:11:14.584] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:11:25.990] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:11:26.000] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:11:26.002] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:11:47.114] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:11:47.119] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:11:47.121] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:11:55.411] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:11:55.415] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:11:55.417] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:12:15.595] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:12:15.602] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:12:15.604] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:12:24.835] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:12:24.843] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:12:24.845] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:12:43.833] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:12:43.837] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:12:43.838] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:12:54.980] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:12:54.984] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:12:54.990] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:13:12.770] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:13:12.773] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:13:12.773] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:13:26.672] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:13:26.672] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:13:26.679] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:13:43.829] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:13:43.833] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:13:43.839] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:13:54.329] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:13:54.334] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:13:54.334] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:14:15.777] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:14:15.781] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:14:15.784] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:14:23.835] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:14:23.840] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:14:23.842] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:14:44.908] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:14:44.912] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:14:44.912] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:14:54.207] INFO  🔵 SQL | 3 ms | select * from `expense_dev`.`users` where 1=0
+[11:14:54.212] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:14:54.215] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:15:14.241] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[11:15:14.251] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:15:14.254] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:15:26.028] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:15:26.032] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:15:26.034] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:15:45.093] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:15:45.099] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:15:45.100] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:15:54.223] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:15:54.227] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:15:54.229] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:16:15.925] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:16:15.929] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:16:15.933] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:16:23.832] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:16:23.837] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:16:23.838] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:16:45.930] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:16:45.934] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:16:45.934] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:16:54.264] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:16:54.270] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:16:54.273] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:17:15.601] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:17:15.607] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:17:15.609] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:17:24.906] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:17:24.911] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:17:24.912] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:17:47.212] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:17:47.219] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:17:47.221] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:17:55.219] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:17:55.222] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:17:55.222] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:18:14.527] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:18:14.531] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:18:14.532] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:18:25.334] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:18:25.338] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:18:25.340] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:18:48.956] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:18:48.958] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:18:48.960] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:18:57.556] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:18:57.564] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:18:57.567] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:21.748] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:21.753] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:19:21.756] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:26.015] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:26.023] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:19:26.025] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:30.187] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:30.195] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:19:30.199] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:48.032] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:48.037] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:19:48.038] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:54.428] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:19:54.432] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:19:54.434] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:20:20.860] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:20:20.864] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:20:20.865] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:20:29.224] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:20:29.229] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:20:29.231] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:20:49.984] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:20:49.990] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:20:49.993] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:20:57.464] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:20:57.467] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:20:57.468] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:21:22.897] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:21:22.901] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:21:22.903] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:21:30.618] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:21:30.620] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:21:30.621] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:21:47.467] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:21:47.470] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:21:47.472] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:21:55.326] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:21:55.329] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:21:55.330] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:22:18.406] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:22:18.412] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:22:18.413] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:22:21.205] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:22:21.209] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:22:21.210] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:22:27.484] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:22:27.489] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:22:27.492] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:22:53.472] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[11:22:53.478] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:22:53.481] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:00.138] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:00.143] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:23:00.144] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:16.179] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:16.185] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:23:16.188] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:26.772] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:26.778] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:23:26.779] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:50.982] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:50.986] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:23:50.987] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:58.710] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:23:58.712] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:23:58.714] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:24:21.897] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:24:21.904] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:24:21.907] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:24:30.334] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:24:30.337] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:24:30.340] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:24:48.573] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[11:24:48.576] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:24:48.577] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:24:55.934] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:24:55.938] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:24:55.940] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:25:22.901] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:25:22.907] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:25:22.909] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:25:25.999] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:25:26.002] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:25:26.003] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:25:33.214] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:25:33.219] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:25:33.221] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:25:41.718] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:25:41.724] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:25:41.726] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:26:07.718] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:26:07.725] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:26:07.728] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:26:15.424] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:26:15.428] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:26:15.429] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:26:38.125] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:26:38.127] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:26:38.129] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:26:44.784] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:26:44.791] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:26:44.792] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:04.733] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:04.736] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:27:04.739] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:14.959] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:14.963] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:27:14.965] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:41.299] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:41.304] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:27:41.305] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:48.545] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:48.549] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:27:48.551] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:57.935] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:27:57.940] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:27:57.942] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:28:23.334] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:28:23.336] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:28:23.337] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:28:33.174] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:28:33.178] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:28:33.181] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:28:47.709] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:28:47.712] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:28:47.715] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:28:57.708] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:28:57.712] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:28:57.713] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:29:26.141] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:29:26.147] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:29:26.149] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:29:33.873] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:29:33.877] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:29:33.879] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:29:43.703] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:29:43.709] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:29:43.711] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:30:11.225] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:30:11.232] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:30:11.234] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:30:18.851] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:30:18.857] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:30:18.857] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:30:29.007] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:30:29.015] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:30:29.017] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:30:54.800] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:30:54.806] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:30:54.808] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:31:04.344] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:31:04.347] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:31:04.348] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:31:14.173] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:31:14.180] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:31:14.183] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:31:40.347] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:31:40.353] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:31:40.355] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:31:48.236] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:31:48.238] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:31:48.241] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:04.266] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:04.269] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:32:04.270] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:13.255] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:13.259] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:32:13.261] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:41.296] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:41.301] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:32:41.303] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:50.228] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:50.232] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:32:50.233] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:58.824] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:32:58.828] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:32:58.830] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:33:25.095] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:33:25.098] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:33:25.100] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:33:33.693] INFO  🔵 SQL | 3 ms | select * from `expense_dev`.`users` where 1=0
+[11:33:33.700] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:33:33.703] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:33:47.931] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:33:47.936] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:33:47.938] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:33:59.351] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:33:59.355] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:33:59.358] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:36:13.519] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:36:13.524] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:36:13.525] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:36:23.001] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:36:23.005] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:36:23.007] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:36:40.879] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[11:36:40.890] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:36:40.891] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:36:53.747] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[11:36:53.750] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:36:53.752] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:37:14.502] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:37:14.504] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:37:14.506] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:37:24.924] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:37:24.929] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:37:24.931] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:37:42.580] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:37:42.584] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:37:42.584] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:37:53.780] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:37:53.780] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:37:53.780] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:38:09.656] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:38:09.664] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:38:09.664] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:38:28.500] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:38:28.504] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:38:28.509] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[11:38:40.269] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:38:40.277] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:38:40.279] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:38:57.262] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:38:57.267] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:38:57.269] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:39:10.351] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:39:10.357] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:39:10.358] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:39:23.322] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:39:23.333] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:39:23.333] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:39:43.161] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:39:43.167] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:39:43.167] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:39:54.062] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:39:54.067] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:39:54.068] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:40:13.677] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:40:13.682] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:40:13.686] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:40:24.080] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:40:24.080] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:40:24.080] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:40:44.258] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[11:40:44.265] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:40:44.269] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:40:56.583] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:40:56.589] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:40:56.593] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:41:16.019] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:41:16.023] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:41:16.025] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:41:28.675] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:41:28.678] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:41:28.680] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:41:44.172] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:41:44.175] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:41:44.177] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:41:56.073] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[11:41:56.078] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[11:41:56.081] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[19:13:50.878] INFO  🔵 SQL | 13 ms | create table category ( id varchar(36) not null, created_at datetime(6) not null, category_name varchar(30) not null, user_id varchar(36) not null, primary key (id), check (CHAR_LENGTH(category_name) > 2 AND CHAR_LENGTH(category_name) <= 30) ) engine=InnoDB
+[19:13:50.899] INFO  🔵 SQL | 16 ms | create table expenses ( id varchar(36) not null, created_at datetime(6) not null, amount decimal(10,2) not null, category_id varchar(255) not null, description varchar(100) not null, expense_date_time datetime(6) not null, primary key (id) ) engine=InnoDB
+[19:13:50.912] INFO  🔵 SQL | 13 ms | create table users ( id varchar(36) not null, created_at datetime(6) not null, email varchar(100) not null, income_limit decimal(19,2), name varchar(255) not null, password varchar(255) not null, role varchar(255) not null, primary key (id) ) engine=InnoDB
+[19:13:50.935] INFO  🔵 SQL | 21 ms | alter table category drop index UKt8pi2cjtplbos9g0vvnmdfovn
+[19:13:50.949] INFO  🔵 SQL | 12 ms | alter table category add constraint UKt8pi2cjtplbos9g0vvnmdfovn unique (user_id, category_name)
+[19:13:50.950] INFO  🔵 SQL | 1 ms | alter table users drop index UK6dotkott2kjsp8vw4d0m25fb7
+[19:13:50.962] INFO  🔵 SQL | 11 ms | alter table users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+[19:13:51.030] INFO  🔵 SQL | 66 ms | alter table category add constraint FK7ffrpnxaflomhdh0qfk2jcndo foreign key (user_id) references users (id)
+[19:13:51.081] INFO  🔵 SQL | 51 ms | alter table expenses add constraint FKg37g4b5wtu8ab4oq2rpmfagmg foreign key (category_id) references category (id)
+[22:01:17.997] INFO  🔵 SQL | 3 ms | select * from `expense_dev`.`users` where 1=0
+[22:01:18.007] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[22:02:18.317] INFO  🔵 SQL | 2 ms | select * from `expense_dev`.`users` where 1=0
+[22:02:18.332] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[22:06:48.055] INFO  🔵 SQL | 2 ms | select * from `expense_dev`.`users` where 1=0
+[22:06:48.063] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[22:13:21.429] INFO  🔵 SQL | 5 ms | select * from `expense_dev`.`users` where 1=0
+[22:13:21.429] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:04:58.470] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:05:18.876] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:05:18.980] INFO  🔵 SQL | 4 ms | insert into users (created_at,email,income_limit,name,password,role,id) values ('2025-09-23T23:05:18.946+0530','test@gmail.com',0,'test','$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq','USER','199def9b-e516-43e0-b02b-f1aad32a813e')
+[23:05:23.443] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:05:23.443] INFO  
+[23:05:23.447] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 0.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:05:28.778] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:05:28.778] INFO  
+[23:05:28.778] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 0.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:06:10.128] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:06:10.129] INFO  
+[23:06:10.130] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 0.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:07:23.037] INFO  🔵 SQL | 2 ms | select * from `expense_dev`.`users` where 1=0
+[23:07:23.046] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:07:27.563] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:07:27.578] INFO  
+[23:07:27.591] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 0.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:07:27.703] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:07:27.704] INFO  
+[23:07:27.704] INFO  ⚪ RESULTSET | 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 0.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:07:27.740] INFO  🔵 SQL | 4 ms | update users set created_at='2025-09-23T23:05:18.946+0530',email='test@gmail.com',income_limit=20000,name='test',password='$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq',role='USER' where id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:07:31.006] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:07:31.007] INFO  
+[23:07:31.007] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:07:43.963] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:07:43.963] INFO  
+[23:07:43.963] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:10:46.788] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:10:46.789] INFO  
+[23:10:46.791] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:10:46.804] INFO  🔵 SQL | 0 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.user_id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:10:50.327] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:10:50.332] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:11:00.924] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:11:00.929] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:11:24.686] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:11:24.686] INFO  
+[23:11:24.687] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:11:24.699] INFO  🔵 SQL | 0 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.category_name='food' and c1_0.user_id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:11:24.708] INFO  🔵 SQL | 0 ms | select null,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:11:24.709] INFO  
+[23:11:24.710] INFO  ⚪ RESULTSET | 1 = 0, 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:11:24.715] INFO  🔵 SQL | 0 ms | insert into category (category_name,created_at,user_id,id) values ('food','2025-09-23T23:11:24.702+0530','199def9b-e516-43e0-b02b-f1aad32a813e','2ca4be37-5633-4c72-9245-deabdd0c033d')
+[23:12:58.623] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:12:58.623] INFO  
+[23:12:58.623] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:12:58.631] INFO  🔵 SQL | 0 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.category_name='food' and c1_0.user_id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:12:58.631] INFO  
+[23:12:58.635] INFO  ⚪ RESULTSET | 1 = '2ca4be37-5633-4c72-9245-deabdd0c033d', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'food', 3 = '2025-09-23T23:11:24.702+0530'
+[23:13:06.358] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:13:06.358] INFO  
+[23:13:06.358] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:13:06.367] INFO  🔵 SQL | 0 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.category_name='trip' and c1_0.user_id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:13:06.368] INFO  🔵 SQL | 0 ms | select null,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:13:06.370] INFO  
+[23:13:06.370] INFO  ⚪ RESULTSET | 1 = 0, 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:13:06.372] INFO  🔵 SQL | 0 ms | insert into category (category_name,created_at,user_id,id) values ('trip','2025-09-23T23:13:06.368+0530','199def9b-e516-43e0-b02b-f1aad32a813e','227240d8-0094-47e2-9313-9e30870b478a')
+[23:20:45.994] INFO  🔵 SQL | 2 ms | select * from `expense_dev`.`users` where 1=0
+[23:20:46.002] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`category` where 1=0
+[23:20:54.644] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:20:54.664] INFO  
+[23:20:54.673] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:20:54.760] INFO  🔵 SQL | 0 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.category_name='clothes' and c1_0.user_id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:20:54.783] INFO  🔵 SQL | 1 ms | select null,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:20:54.783] INFO  
+[23:20:54.784] INFO  ⚪ RESULTSET | 1 = 0, 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:20:54.804] INFO  🔵 SQL | 2 ms | insert into category (category_name,created_at,user_id,id) values ('clothes','2025-09-23T23:20:54.774+0530','199def9b-e516-43e0-b02b-f1aad32a813e','37369cbc-e229-4c5e-939f-df825ba8399d')
+[23:21:28.596] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:21:28.603] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`category` where 1=0
+[23:21:30.974] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:21:30.982] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:24:34.640] INFO  🔵 SQL | 3 ms | select * from `expense_dev`.`users` where 1=0
+[23:24:34.650] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:24:42.380] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:24:42.395] INFO  
+[23:24:42.405] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:24:42.490] INFO  🔵 SQL | 1 ms | select c1_0.id from category c1_0 join users u1_0 on u1_0.id=c1_0.user_id where c1_0.category_name='clothes' and u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e' limit 1
+[23:24:42.490] INFO  
+[23:24:42.492] INFO  ⚪ RESULTSET | 1 = '37369cbc-e229-4c5e-939f-df825ba8399d'
+[23:25:02.755] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:25:02.756] INFO  
+[23:25:02.756] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:25:02.763] INFO  🔵 SQL | 0 ms | select c1_0.id from category c1_0 join users u1_0 on u1_0.id=c1_0.user_id where c1_0.category_name='dummy' and u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e' limit 1
+[23:25:02.781] INFO  🔵 SQL | 0 ms | select null,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:25:02.782] INFO  
+[23:25:02.782] INFO  ⚪ RESULTSET | 1 = 0, 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:25:02.800] INFO  🔵 SQL | 2 ms | insert into category (category_name,created_at,user_id,id) values ('dummy','2025-09-23T23:25:02.774+0530','199def9b-e516-43e0-b02b-f1aad32a813e','c61198f1-c467-466c-bdae-8525cae2c470')
+[23:35:01.073] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:35:01.077] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:36:42.853] INFO  🔵 SQL | 4 ms | select * from `expense_dev`.`users` where 1=0
+[23:36:42.863] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:36:47.733] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:36:47.747] INFO  
+[23:36:47.758] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:36:47.847] INFO  🔵 SQL | 1 ms | select c1_0.id from category c1_0 join users u1_0 on u1_0.id=c1_0.user_id where c1_0.category_name='dummy' and u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e' limit 1
+[23:36:47.848] INFO  
+[23:36:47.849] INFO  ⚪ RESULTSET | 1 = 'c61198f1-c467-466c-bdae-8525cae2c470'
+[23:36:58.163] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:36:58.163] INFO  
+[23:36:58.165] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:37:05.497] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:37:05.497] INFO  
+[23:37:05.498] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:37:05.505] INFO  🔵 SQL | 0 ms | select c1_0.id from category c1_0 join users u1_0 on u1_0.id=c1_0.user_id where c1_0.category_name='check' and u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e' limit 1
+[23:37:10.392] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:37:10.399] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:37:12.643] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:37:12.650] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:37:50.181] INFO  🔵 SQL | 2 ms | select * from `expense_dev`.`users` where 1=0
+[23:37:50.191] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:37:57.449] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:37:57.464] INFO  
+[23:37:57.475] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:37:57.583] INFO  🔵 SQL | 2 ms | select c1_0.id from category c1_0 join users u1_0 on u1_0.id=c1_0.user_id where c1_0.category_name='check' and u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e' limit 1
+[23:37:57.638] INFO  🔵 SQL | 2 ms | insert into category (category_name,created_at,user_id,id) values ('check','2025-09-23T23:37:57.610+0530','199def9b-e516-43e0-b02b-f1aad32a813e','06a0ea7e-0630-487a-be83-0470e316c5b1')
+[23:38:30.050] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:38:30.058] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:38:32.507] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:38:32.513] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:39:32.828] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:39:32.835] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`category` where 1=0
+[23:47:02.214] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:47:02.222] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:48:33.466] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:48:33.471] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:49:28.553] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:49:28.560] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:50:01.883] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:50:01.886] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[23:53:06.679] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:53:06.679] INFO  
+[23:53:06.679] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:53:06.690] INFO  🔵 SQL | 0 ms | select c1_0.id from category c1_0 join users u1_0 on u1_0.id=c1_0.user_id where c1_0.category_name='other' and u1_0.id='199def9b-e516-43e0-b02b-f1aad32a813e' limit 1
+[23:53:06.691] INFO  🔵 SQL | 0 ms | insert into category (category_name,created_at,user_id,id) values ('other','2025-09-23T23:53:06.691+0530','199def9b-e516-43e0-b02b-f1aad32a813e','930d4337-2d83-40d4-9d8b-7e870aef961c')
+[23:53:36.194] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:53:36.195] INFO  
+[23:53:36.195] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:55:11.974] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:55:11.974] INFO  
+[23:55:11.974] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:55:58.737] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:55:58.737] INFO  
+[23:55:58.737] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:55:58.747] INFO  🔵 SQL | 0 ms | select c1_0.id,c1_0.category_name,c1_0.created_at,c1_0.user_id from category c1_0 where c1_0.user_id='199def9b-e516-43e0-b02b-f1aad32a813e'
+[23:55:58.749] INFO  
+[23:55:58.749] INFO  ⚪ RESULTSET | 1 = '06a0ea7e-0630-487a-be83-0470e316c5b1', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'check', 3 = '2025-09-23T23:37:57.610+0530'
+[23:55:58.749] INFO  
+[23:55:58.749] INFO  ⚪ RESULTSET | 1 = '37369cbc-e229-4c5e-939f-df825ba8399d', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'clothes', 3 = '2025-09-23T23:20:54.774+0530'
+[23:55:58.749] INFO  
+[23:55:58.749] INFO  ⚪ RESULTSET | 1 = 'c61198f1-c467-466c-bdae-8525cae2c470', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'dummy', 3 = '2025-09-23T23:25:02.774+0530'
+[23:55:58.749] INFO  
+[23:55:58.751] INFO  ⚪ RESULTSET | 1 = '2ca4be37-5633-4c72-9245-deabdd0c033d', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'food', 3 = '2025-09-23T23:11:24.702+0530'
+[23:55:58.751] INFO  
+[23:55:58.751] INFO  ⚪ RESULTSET | 1 = '930d4337-2d83-40d4-9d8b-7e870aef961c', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'other', 3 = '2025-09-23T23:53:06.691+0530'
+[23:55:58.751] INFO  
+[23:55:58.751] INFO  ⚪ RESULTSET | 1 = '227240d8-0094-47e2-9313-9e30870b478a', 4 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = 'trip', 3 = '2025-09-23T23:13:06.368+0530'
+[23:56:33.337] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email='test@gmail.com'
+[23:56:33.338] INFO  
+[23:56:33.338] INFO  ⚪ RESULTSET | 1 = '199def9b-e516-43e0-b02b-f1aad32a813e', 2 = '2025-09-23T23:05:18.946+0530', 3 = 'test@gmail.com', 4 = 20000.00, 5 = 'test', 6 = '$2a$10$pbpBn4kewHuyTDekSPkE.ulxs3ktp7PpR3x.BpdEsdR8yXeHKfaEq', 7 = 'USER'
+[23:57:46.963] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[23:57:46.967] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0

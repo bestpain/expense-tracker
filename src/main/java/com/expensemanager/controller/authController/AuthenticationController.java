@@ -64,7 +64,7 @@ public class AuthenticationController {
     @PostMapping("/logout")
     public ResponseEntity<?> logout(HttpServletRequest request) {
         String authHeader = request.getHeader("Authorization");
-
+        System.out.println(authHeader);
         if (authHeader == null || !authHeader.startsWith("Bearer ")) {
             return ResponseEntity
                     .status(HttpServletResponse.SC_UNAUTHORIZED)
