@@ -2,8 +2,10 @@ package com.expensemanager.configs;
 
 import com.expensemanager.service.TokenBlacklistService;
 import com.expensemanager.service.jwtService.JwtService;
+import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtException;
+import io.jsonwebtoken.Jwts;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -12,6 +14,7 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
@@ -39,54 +42,10 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
     }
 
 //    @Override
-//    protected void doFilterInternal(
-//            @NonNull HttpServletRequest request,
-//            @NonNull HttpServletResponse response,
-//            @NonNull FilterChain filterChain
-//    ) throws ServletException, IOException {
-//
-//        final String authHeader = request.getHeader("Authorization");
-//
-//        if (authHeader == null || !authHeader.startsWith("Bearer ")) {
-//            filterChain.doFilter(request, response);
-//            return;
-//        }
-//
-//        try {
-//            final String jwt = authHeader.substring(7);
-//            final String userEmail = jwtService.extractUsername(jwt);
-//
-//            Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-//
-//            if (userEmail != null && authentication == null) {
-//                UserDetails userDetails = this.userDetailsService.loadUserByUsername(userEmail);
-//
-//                if (jwtService.isTokenValid(jwt, userDetails)) {
-//                    UsernamePasswordAuthenticationToken authToken =
-//                            new UsernamePasswordAuthenticationToken(
-//                                    userDetails,
-//                                    null,
-//                                    userDetails.getAuthorities()
-//                            );
-//
-//                    authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-//                    SecurityContextHolder.getContext().setAuthentication(authToken);
-//
-//                    filterChain.doFilter(request, response);
-//                } else {
-//                    response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-//                    response.setContentType("application/json");
-//                    response.getWriter().write("{\"status\":401,\"message\":\"Invalid or expired token\"}");
-//                }
-//            } else {
-//                filterChain.doFilter(request, response);
-//            }
-//
-//        } catch (Exception exception) {
-//            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-//            response.setContentType("application/json");
-//            response.getWriter().write("{\"status\":401,\"message\":\"Unauthorized\"}");
-//        }
+//    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+//        User user = userRepository.findByEmail(email)
+//                .orElseThrow(() -> new UsernameNotFoundException("User not found with email: " + email));
+//        return new CustomUserDetails(user);
 //    }
 
     @Override
@@ -94,7 +53,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                                     HttpServletResponse response,
                                     FilterChain filterChain) throws ServletException, IOException {
         final String authHeader = request.getHeader("Authorization");
-
         if (authHeader != null && authHeader.startsWith("Bearer ")) {
             try {
                 final String jwt = authHeader.substring(7);
@@ -108,7 +66,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
                 if (userEmail != null && SecurityContextHolder.getContext().getAuthentication() == null) {
                     UserDetails userDetails = userDetailsService.loadUserByUsername(userEmail);
-
+                    System.out.println(jwtService.isTokenValid(jwt, userDetails));
                     if (jwtService.isTokenValid(jwt, userDetails)) {
                         UsernamePasswordAuthenticationToken authToken =
                                 new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());

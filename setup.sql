@@ -21,20 +21,15 @@ CREATE TABLE users (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP NOT NULL
 );
 
-select * from users;
-
 SET SQL_SAFE_UPDATES = 0;
 SET SQL_SAFE_UPDATES = 1;
 
+select * from users;
 update users set role="ADMIN" where name = "admin" ;
-update users set role="ADMIN" where name = "rock";
-select * from expenses;
-
-insert into expenses values(55454,0,"d","1998-11-11");
 
 select * from category;
+alter table category drop column category_id; 
 
-SHOW INDEXES FROM category;
-
-
-insert into category values(5,"a");
+select * from expenses;
+delete from expenses where description = "dosa";
+alter table expenses drop column expense_date;

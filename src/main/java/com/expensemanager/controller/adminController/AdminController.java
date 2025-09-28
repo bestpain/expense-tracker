@@ -32,10 +32,10 @@ public class AdminController {
     }
 
     @GetMapping("/allcategory")
-    public ResponseEntity<ApiResponse> getAllCategories() {
+    public ResponseEntity<ApiResponse<List<ViewAllCategory>>> getAllCategories() {
         List<Category> categoryList = categoryService.getAllCategories();
         List<ViewAllCategory> allCategories = categoryList.stream().map(category ->
                 new ViewAllCategory(category.getId(), category.getCategoryName(), new SimpleUserResponse(category.getUser().getId(),category.getUser().getName()))).toList();
-        return ResponseEntity.ok(new ApiResponse(true, "All Categories", allCategories));
+        return ResponseEntity.ok(new ApiResponse<>(true, "All Categories", allCategories));
     }
 }

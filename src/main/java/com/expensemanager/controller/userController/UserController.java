@@ -1,7 +1,8 @@
 package com.expensemanager.controller.userController;
 
+import com.expensemanager.configs.CustomUserDetails;
 import com.expensemanager.dto.ApiResponse;
-import com.expensemanager.dto.category.ViewCategory;
+import com.expensemanager.dto.category.ViewCategoryResponse;
 import com.expensemanager.dto.user.UserResponse;
 import com.expensemanager.dto.user.userProfileUpdate.UpdateProfileRequest;
 import com.expensemanager.entity.category.Category;
@@ -34,23 +35,26 @@ public class UserController {
         this.categoryService = categoryService;
     }
 
-    @GetMapping("/me")
+    @GetMapping("/me")  //get user
     public ResponseEntity<ApiResponse<UserResponse>> authenticatedUser() {
+
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        User currentUser = (User) authentication.getPrincipal();
+        CustomUserDetails userDetails  = (CustomUserDetails) authentication.getPrincipal();
+
         return ResponseEntity.ok(new ApiResponse<>(true, "User details fetched successfully", new UserResponse(
-                currentUser.getId(),
-                currentUser.getEmail(),
-                currentUser.getName(),
-                currentUser.getRole(),
-                currentUser.getIncomeLimit()
+                userDetails.getId(),
+                userDetails.getUsername(),
+                userDetails.getName(),
+                userDetails.getIncomeLimit()
         )));
     }
 
-    @PutMapping("/me")
+    @PutMapping("/me") //update user
     public ResponseEntity<?> update(@Valid @RequestBody UpdateProfileRequest upd, Authentication authentication) {
-        User user = (User) authentication.getPrincipal();
-        User u = userService.updateProfile(user.getId(), upd);
+
+        CustomUserDetails userDetails  = (CustomUserDetails) authentication.getPrincipal();
+        User u = userService.updateProfile(userDetails.getId(), upd);
+
         UserResponse r = new UserResponse();
         r.setId(u.getId());
         r.setName(u.getName());
@@ -59,24 +63,25 @@ public class UserController {
         return ResponseEntity.ok(new ApiResponse<>(true, "User Successfully updated.", r));
     }
 
-    @GetMapping("/me/categories")
-    public ResponseEntity<ApiResponse<Set<ViewCategory>>> viewAllUserCategories() {
+    @GetMapping("/me/categories") // get user categories
+    public ResponseEntity<ApiResponse<Set<ViewCategoryResponse>>> viewAUserCategories() {
 
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        User currentUser = (User) authentication.getPrincipal();
+        CustomUserDetails userDetails  = (CustomUserDetails) authentication.getPrincipal();
+        User currentUser = userDetails.getUser();
 
         Set<Category> userCategories = categoryService.getCategoriesByUser(currentUser);
-        Set<ViewCategory> viewCategoryOfUsers = userCategories.stream().map((category -> new ViewCategory(category.getId(), category.getCategoryName())))
+        Set<ViewCategoryResponse> viewCategoryResponseOfUsers = userCategories.stream().map((category -> new ViewCategoryResponse(category.getId(), category.getCategoryName())))
                 .collect(Collectors.toSet());
 
-        return ResponseEntity.ok(new ApiResponse<>(true, "Categories fetched for given user", viewCategoryOfUsers));
+        return ResponseEntity.ok(new ApiResponse<>(true, "Categories fetched for given user", viewCategoryResponseOfUsers));
     }
 
     @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/test")
     public ResponseEntity<BigDecimal> getIncome(Authentication authentication) {
-        User user = (User) authentication.getPrincipal();
-        return ResponseEntity.ok(user.getIncomeLimit());
+        CustomUserDetails userDetails  = (CustomUserDetails) authentication.getPrincipal();
+        return ResponseEntity.ok(userDetails.getIncomeLimit());
     }
 }
 

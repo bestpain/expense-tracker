@@ -1,0 +1,112 @@
+[20:46:18.140] INFO  🔵 SQL | 47 ms | create table user ( id varchar(36) not null, created_at datetime(6) not null, email varchar(100) not null, income_limit decimal(19,2), name varchar(255) not null, password varchar(255) not null, role varchar(255) not null, primary key (id) ) engine=InnoDB
+[20:46:18.179] INFO  🔵 SQL | 27 ms | alter table user drop index UKob8kqyqqgmefl0aco34akdtpe
+[20:46:18.199] INFO  🔵 SQL | 17 ms | alter table user add constraint UKob8kqyqqgmefl0aco34akdtpe unique (email)
+[20:46:18.217] INFO  🔵 SQL | 2 ms | select * from `expense_dev`.`users` where 1=0
+[20:46:18.253] INFO  🔵 SQL | 33 ms | alter table category add constraint FKpfk8djhv5natgshmxiav6xkpu foreign key (user_id) references user (id)
+[20:46:18.262] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[20:46:18.266] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[20:46:18.356] INFO  🔵 SQL | 90 ms | alter table expenses add constraint FKc8jt1wmsljt9dp50srgeomrls foreign key (users_id) references user (id)
+[20:46:50.634] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='test@gmail.com'
+[20:47:16.347] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='test@gmail.com'
+[20:48:08.520] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='test@gmail.com'
+[20:48:39.226] INFO  🔵 SQL | 1 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='test@gmail.com'
+[20:49:26.578] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='test@gmail.com'
+[20:52:04.706] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='normal@gmail.com'
+[20:53:08.571] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='normal@gmail.com'
+[20:53:13.053] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='normal@gmail.com'
+[20:53:13.172] INFO  🔵 SQL | 7 ms | insert into user (created_at,email,income_limit,name,password,role,id) values ('2025-09-20T20:53:13.126+0530','normal@gmail.com',0,'normal','$2a$10$Gh7BH70mHjrha5Br3rhAHOcYjondxK9UOUlRW1fLnJmgpOJab7TX.','USER','5e5a6256-ee2b-4760-a67a-27a8c1cfaf12')
+[20:54:18.250] INFO  🔵 SQL | 2 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='normal@gmail.com'
+[20:54:18.251] INFO  
+[20:54:18.256] INFO  ⚪ RESULTSET | 1 = '5e5a6256-ee2b-4760-a67a-27a8c1cfaf12', 2 = '2025-09-20T20:53:13.126+0530', 3 = 'normal@gmail.com', 4 = 0.00, 5 = 'normal', 6 = '$2a$10$Gh7BH70mHjrha5Br3rhAHOcYjondxK9UOUlRW1fLnJmgpOJab7TX.', 7 = 'USER'
+[20:54:40.951] INFO  🔵 SQL | 0 ms | select u1_0.id,u1_0.created_at,u1_0.email,u1_0.income_limit,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email='dk@gmail.com'
+[20:54:41.014] INFO  🔵 SQL | 1 ms | insert into user (created_at,email,income_limit,name,password,role,id) values ('2025-09-20T20:54:41.011+0530','dk@gmail.com',0,'dummy','$2a$10$C351uRk5H9HFvQtJ5Aj0Juihxe8jQMZVp4HUNTS/n1ygmndooy04C','USER','aa9db6bc-29fe-47e1-9e95-1468b9c75309')
+[20:56:57.660] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[20:56:57.668] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[20:56:57.671] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`user` where 1=0
+[20:56:57.673] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[20:57:00.441] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[20:57:00.449] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[20:57:00.451] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`user` where 1=0
+[20:57:00.454] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[20:57:14.946] INFO  🔵 SQL | 4 ms | select * from `expense_dev`.`users` where 1=0
+[20:57:14.961] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[20:57:14.970] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`user` where 1=0
+[20:57:14.975] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`users` where 1=0
+[21:06:27.178] INFO  🔵 SQL | 22 ms | create table category ( id varchar(36) not null, created_at datetime(6) not null, category_name varchar(30) not null, user_id varchar(36) not null, primary key (id), check (CHAR_LENGTH(category_name) > 2 AND CHAR_LENGTH(category_name) <= 30) ) engine=InnoDB
+[21:06:27.215] INFO  🔵 SQL | 36 ms | create table expenses ( id varchar(36) not null, created_at datetime(6) not null, amount decimal(10,2) not null, description varchar(100) not null, expense_date_time datetime(6) not null, category_id varchar(36), users_id varchar(36) not null, primary key (id) ) engine=InnoDB
+[21:06:27.235] INFO  🔵 SQL | 19 ms | create table users ( id varchar(36) not null, created_at datetime(6) not null, email varchar(100) not null, income_limit decimal(19,2), name varchar(255) not null, password varchar(255) not null, role varchar(255) not null, primary key (id) ) engine=InnoDB
+[21:06:27.259] INFO  🔵 SQL | 22 ms | alter table category drop index UKt8pi2cjtplbos9g0vvnmdfovn
+[21:06:27.277] INFO  🔵 SQL | 17 ms | alter table category add constraint UKt8pi2cjtplbos9g0vvnmdfovn unique (user_id, category_name)
+[21:06:27.281] INFO  🔵 SQL | 2 ms | alter table expenses drop index UKqo1eu6mr1jckbf5u08jgouyqr
+[21:06:27.293] INFO  🔵 SQL | 12 ms | alter table expenses add constraint UKqo1eu6mr1jckbf5u08jgouyqr unique (category_id)
+[21:06:27.297] INFO  🔵 SQL | 2 ms | alter table users drop index UK6dotkott2kjsp8vw4d0m25fb7
+[21:06:27.310] INFO  🔵 SQL | 13 ms | alter table users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+[21:06:27.386] INFO  🔵 SQL | 74 ms | alter table category add constraint FK7ffrpnxaflomhdh0qfk2jcndo foreign key (user_id) references users (id)
+[21:06:27.459] INFO  🔵 SQL | 73 ms | alter table expenses add constraint FKg37g4b5wtu8ab4oq2rpmfagmg foreign key (category_id) references category (id)
+[21:06:27.531] INFO  🔵 SQL | 69 ms | alter table expenses add constraint FKac0xvkxln1ejn6dq80q8kw6rp foreign key (users_id) references users (id)
+[21:23:12.201] INFO  🔵 SQL | 61 ms | alter table expenses add column users_idd varchar(36) not null
+[21:23:12.221] INFO  🔵 SQL | 3 ms | select * from `expense_dev`.`users` where 1=0
+[21:23:12.228] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[21:23:12.231] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[21:23:12.300] INFO  🔵 SQL | 69 ms | alter table expenses add constraint FK1ocrvmjx8erk0kx7cc99g8lyn foreign key (users_idd) references users (id)
+[21:24:20.751] INFO  🔵 SQL | 20 ms | create table category ( id varchar(36) not null, created_at datetime(6) not null, category_name varchar(30) not null, user_id varchar(36) not null, primary key (id), check (CHAR_LENGTH(category_name) > 2 AND CHAR_LENGTH(category_name) <= 30) ) engine=InnoDB
+[21:24:20.768] INFO  🔵 SQL | 15 ms | create table expenses ( id varchar(36) not null, created_at datetime(6) not null, amount decimal(10,2) not null, description varchar(100) not null, expense_date_time datetime(6) not null, category_id varchar(36), users_idd varchar(36) not null, primary key (id) ) engine=InnoDB
+[21:24:20.791] INFO  🔵 SQL | 22 ms | create table users ( id varchar(36) not null, created_at datetime(6) not null, email varchar(100) not null, income_limit decimal(19,2), name varchar(255) not null, password varchar(255) not null, role varchar(255) not null, primary key (id) ) engine=InnoDB
+[21:24:20.824] INFO  🔵 SQL | 31 ms | alter table category drop index UKt8pi2cjtplbos9g0vvnmdfovn
+[21:24:20.841] INFO  🔵 SQL | 15 ms | alter table category add constraint UKt8pi2cjtplbos9g0vvnmdfovn unique (user_id, category_name)
+[21:24:20.843] INFO  🔵 SQL | 2 ms | alter table expenses drop index UKqo1eu6mr1jckbf5u08jgouyqr
+[21:24:20.855] INFO  🔵 SQL | 11 ms | alter table expenses add constraint UKqo1eu6mr1jckbf5u08jgouyqr unique (category_id)
+[21:24:20.858] INFO  🔵 SQL | 2 ms | alter table users drop index UK6dotkott2kjsp8vw4d0m25fb7
+[21:24:20.873] INFO  🔵 SQL | 13 ms | alter table users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+[21:24:20.928] INFO  🔵 SQL | 54 ms | alter table category add constraint FK7ffrpnxaflomhdh0qfk2jcndo foreign key (user_id) references users (id)
+[21:24:21.001] INFO  🔵 SQL | 72 ms | alter table expenses add constraint FKg37g4b5wtu8ab4oq2rpmfagmg foreign key (category_id) references category (id)
+[21:24:21.067] INFO  🔵 SQL | 65 ms | alter table expenses add constraint FK1ocrvmjx8erk0kx7cc99g8lyn foreign key (users_idd) references users (id)
+[21:25:03.640] INFO  🔵 SQL | 73 ms | alter table expenses add column users_id varchar(36) not null
+[21:25:03.679] INFO  🔵 SQL | 4 ms | select * from `expense_dev`.`users` where 1=0
+[21:25:03.692] INFO  🔵 SQL | 1 ms | select * from `expense_dev`.`category` where 1=0
+[21:25:03.695] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[21:25:03.791] INFO  🔵 SQL | 94 ms | alter table expenses add constraint FKac0xvkxln1ejn6dq80q8kw6rp foreign key (users_id) references users (id)
+[21:26:04.106] INFO  🔵 SQL | 17 ms | create table category ( id varchar(36) not null, created_at datetime(6) not null, category_name varchar(30) not null, user_id varchar(36) not null, primary key (id), check (CHAR_LENGTH(category_name) > 2 AND CHAR_LENGTH(category_name) <= 30) ) engine=InnoDB
+[21:26:04.123] INFO  🔵 SQL | 15 ms | create table expenses ( id varchar(36) not null, created_at datetime(6) not null, amount decimal(10,2) not null, description varchar(100) not null, expense_date_time datetime(6) not null, category_id varchar(36), users_id varchar(36) not null, primary key (id) ) engine=InnoDB
+[21:26:04.139] INFO  🔵 SQL | 15 ms | create table users ( id varchar(36) not null, created_at datetime(6) not null, email varchar(100) not null, income_limit decimal(19,2), name varchar(255) not null, password varchar(255) not null, role varchar(255) not null, primary key (id) ) engine=InnoDB
+[21:26:04.162] INFO  🔵 SQL | 22 ms | alter table category drop index UKt8pi2cjtplbos9g0vvnmdfovn
+[21:26:04.175] INFO  🔵 SQL | 12 ms | alter table category add constraint UKt8pi2cjtplbos9g0vvnmdfovn unique (user_id, category_name)
+[21:26:04.177] INFO  🔵 SQL | 1 ms | alter table expenses drop index UKqo1eu6mr1jckbf5u08jgouyqr
+[21:26:04.189] INFO  🔵 SQL | 11 ms | alter table expenses add constraint UKqo1eu6mr1jckbf5u08jgouyqr unique (category_id)
+[21:26:04.191] INFO  🔵 SQL | 1 ms | alter table users drop index UK6dotkott2kjsp8vw4d0m25fb7
+[21:26:04.204] INFO  🔵 SQL | 11 ms | alter table users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+[21:26:04.294] INFO  🔵 SQL | 89 ms | alter table category add constraint FK7ffrpnxaflomhdh0qfk2jcndo foreign key (user_id) references users (id)
+[21:26:04.349] INFO  🔵 SQL | 53 ms | alter table expenses add constraint FKg37g4b5wtu8ab4oq2rpmfagmg foreign key (category_id) references category (id)
+[21:26:04.444] INFO  🔵 SQL | 93 ms | alter table expenses add constraint FKac0xvkxln1ejn6dq80q8kw6rp foreign key (users_id) references users (id)
+[21:27:54.748] INFO  🔵 SQL | 2 ms | select * from `expense_dev`.`users` where 1=0
+[21:27:54.757] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[21:27:54.760] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[21:28:18.671] INFO  🔵 SQL | 2 ms | select * from `expense_dev`.`users` where 1=0
+[21:28:18.679] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`category` where 1=0
+[21:28:18.680] INFO  🔵 SQL | 0 ms | select * from `expense_dev`.`users` where 1=0
+[21:28:44.159] INFO  🔵 SQL | 30 ms | create table expenses ( id varchar(36) not null, created_at datetime(6) not null, amount decimal(10,2) not null, description varchar(100) not null, expense_date_time datetime(6) not null, category_id varchar(36) not null, users_id varchar(36) not null, primary key (id) ) engine=InnoDB
+[21:28:44.195] INFO  🔵 SQL | 30 ms | alter table expenses drop index UKqo1eu6mr1jckbf5u08jgouyqr
+[21:28:44.211] INFO  🔵 SQL | 15 ms | alter table expenses add constraint UKqo1eu6mr1jckbf5u08jgouyqr unique (category_id)
+[21:28:44.231] INFO  🔵 SQL | 4 ms | select * from `expense_dev`.`users` where 1=0
+[21:28:44.303] INFO  🔵 SQL | 69 ms | alter table expenses add constraint FKg37g4b5wtu8ab4oq2rpmfagmg foreign key (category_id) references category (id)
+[21:28:44.391] INFO  🔵 SQL | 87 ms | alter table expenses add constraint FKac0xvkxln1ejn6dq80q8kw6rp foreign key (users_id) references users (id)
+[22:21:31.166] INFO  🔵 SQL | 22 ms | create table category ( id varchar(36) not null, created_at datetime(6) not null, category_name varchar(30) not null, user_id varchar(36) not null, primary key (id), check (CHAR_LENGTH(category_name) > 2 AND CHAR_LENGTH(category_name) <= 30) ) engine=InnoDB
+[22:21:31.183] INFO  🔵 SQL | 16 ms | create table expenses ( id varchar(36) not null, created_at datetime(6) not null, amount decimal(10,2) not null, description varchar(100) not null, expense_date_time datetime(6) not null, category_id varchar(36) not null, user_id varchar(36) not null, primary key (id) ) engine=InnoDB
+[22:21:31.206] INFO  🔵 SQL | 21 ms | create table users ( id varchar(36) not null, created_at datetime(6) not null, email varchar(100) not null, income_limit decimal(19,2), name varchar(255) not null, password varchar(255) not null, role varchar(255) not null, primary key (id) ) engine=InnoDB
+[22:21:31.210] INFO  🔵 SQL | 3 ms | alter table category drop index UKt8pi2cjtplbos9g0vvnmdfovn
+[22:21:31.227] INFO  🔵 SQL | 15 ms | alter table category add constraint UKt8pi2cjtplbos9g0vvnmdfovn unique (user_id, category_name)
+[22:21:31.230] INFO  🔵 SQL | 3 ms | alter table users drop index UK6dotkott2kjsp8vw4d0m25fb7
+[22:21:31.247] INFO  🔵 SQL | 16 ms | alter table users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+[22:21:31.327] INFO  🔵 SQL | 80 ms | alter table category add constraint FK7ffrpnxaflomhdh0qfk2jcndo foreign key (user_id) references users (id)
+[22:21:31.394] INFO  🔵 SQL | 64 ms | alter table expenses add constraint FKg37g4b5wtu8ab4oq2rpmfagmg foreign key (category_id) references category (id)
+[22:21:31.474] INFO  🔵 SQL | 79 ms | alter table expenses add constraint FKhpk0n2cbnfiuu5nrgl0ika3hq foreign key (user_id) references users (id)
+[22:31:51.691] INFO  🔵 SQL | 19 ms | create table category ( id varchar(36) not null, created_at datetime(6) not null, category_name varchar(30) not null, user_id varchar(36) not null, primary key (id), check (CHAR_LENGTH(category_name) > 2 AND CHAR_LENGTH(category_name) <= 30) ) engine=InnoDB
+[22:31:51.706] INFO  🔵 SQL | 15 ms | create table expenses ( id varchar(36) not null, created_at datetime(6) not null, amount decimal(10,2) not null, description varchar(100) not null, expense_date_time datetime(6) not null, category_id varchar(36) not null, user_id varchar(36) not null, primary key (id) ) engine=InnoDB
+[22:31:51.721] INFO  🔵 SQL | 14 ms | create table users ( id varchar(36) not null, created_at datetime(6) not null, email varchar(100) not null, income_limit decimal(19,2), name varchar(255) not null, password varchar(255) not null, role varchar(255) not null, primary key (id) ) engine=InnoDB
+[22:31:51.743] INFO  🔵 SQL | 21 ms | alter table category drop index UKt8pi2cjtplbos9g0vvnmdfovn
+[22:31:51.757] INFO  🔵 SQL | 12 ms | alter table category add constraint UKt8pi2cjtplbos9g0vvnmdfovn unique (user_id, category_name)
+[22:31:51.759] INFO  🔵 SQL | 1 ms | alter table users drop index UK6dotkott2kjsp8vw4d0m25fb7
+[22:31:51.768] INFO  🔵 SQL | 9 ms | alter table users add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+[22:31:51.818] INFO  🔵 SQL | 49 ms | alter table category add constraint FK7ffrpnxaflomhdh0qfk2jcndo foreign key (user_id) references users (id)
+[22:31:51.862] INFO  🔵 SQL | 43 ms | alter table expenses add constraint FKg37g4b5wtu8ab4oq2rpmfagmg foreign key (category_id) references category (id)
+[22:31:51.920] INFO  🔵 SQL | 55 ms | alter table expenses add constraint FKhpk0n2cbnfiuu5nrgl0ika3hq foreign key (user_id) references users (id)
